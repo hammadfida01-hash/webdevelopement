@@ -1,0 +1,12 @@
+h2{
+	color:red;
+}
+
+.box{
+
+  border: 5px solid red;
+  display: inline-block;
+  padding: 30px 20px 25px 7px;
+  margin: 20px  5px 20px 7px;
+}
+	
