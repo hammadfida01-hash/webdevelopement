@@ -1,0 +1,13 @@
+{% extends "menu.html" %}
+{% load app_tags %}
+{% block content %}
+
+<div class="maincontent">
+    <h3>Welcome, {{request.session.realname}}!</h3>
+    <h1>Heading 1 of Home</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quibusdam optio id asperiores saepe rem, molestias odit eum reiciendis, necessitatibus non. Fugit assumenda officiis error repellendus incidunt provident dolorum ipsa.</p>
+    <blockquote>
+        {{quote | quotes }}
+    </blockquote>
+</div>
+{% endblock %}

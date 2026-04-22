@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exam - paper</title>
+</head>
+<body>
+    <h1>Test</h1>
+    <div class="questionbox">
+       <div class="question">
+        {{que | upper}}
+        <div class="options">
+            <div id="optiona">
+                <input type="radio" name="option">
+                {{optiona}}</div>
+            <div id="optionb">
+                <input type="radio" name="option">
+                {{optionb}}</div>
+            <div id="optionc">
+                <input type="radio" name="option">
+                {{optionc}}</div>
+            <div id="optiond">
+                <input type="radio" name="option">
+                {{optiond}}</div>
+            <button type="submit">Submit</button>
+        </div>
+       </div>
+       <div class="answer">
+        {%if show_answer %}
+        {{answer}}
+        {%endif%}
+       </div>
+    </div>
+</body>
+</html>
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exam - paper</title>
+</head>
+<body>
+    <h1>Test</h1>
+    <div class="questionbox">
+       <div class="question">
+        who developed python language?
+        <div class="options">
+            <div id="optiona">
+                <input type="radio" name="option">
+                Dennis Ritchie</div>
+            <div id="optionb">
+                <input type="radio" name="option">
+                Guido Van Rossum</div>
+            <div id="optionc">
+                <input type="radio" name="option">
+                James</div>
+            <div id="optiond">
+                <input type="radio" name="option">
+                Usama</div>
+            <button type="submit">Submit</button>
+        </div>
+       </div>
+    </div>
+</body>
+</html> -->

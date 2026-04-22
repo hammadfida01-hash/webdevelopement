@@ -1,0 +1,32 @@
+{% extends "menu.html" %}
+{% block content %}
+
+<form action="{% url 'recordupdate' %}" method="post">
+    {% csrf_token %}
+    <input type="hidden" name="id" value="{{ employee.id }}">
+    <div>
+        <label for="eno">Employee Number:</label>
+    </div>
+    <div>
+        <input type="number" id="eno" name="eno" value="{{ employee.eno }}">
+    </div>
+    <div>
+    <label for="ename">Employee Name:</label>
+    </div>
+    <div>
+        <input type="text" id="ename" name="ename" value="{{employee.ename}}">
+    </div>
+    <div>
+        <label for="esal">Employee Salary:</label>
+    </div>
+    <div>
+        <input type="number" id="esal" name="esal" value="{{employee.esal}}">
+    </div>
+    <div>
+        <button type="submit" value="Update Employee">
+            Update Employee
+        </button>
+    </div>
+</form>
+
+{% endblock %}

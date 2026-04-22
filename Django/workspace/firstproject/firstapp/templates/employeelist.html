@@ -1,0 +1,23 @@
+{% extends "menu.html" %}
+{% block content %}
+    <div class="employeelist">
+        <h1>Employee List</h1>
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Employee No.</th>
+                <th>Name</th>
+                <th>Salary</th>
+            </tr>
+            {% for employee in emp %}
+                <tr>
+                    <td><a href="{% url 'updateemployeeform' %}?id={{ employee.id }}">{{ employee.id }}</a></td>
+                    <td>{{ employee.eno }}</td>
+                    <td>{{ employee.ename }}</td>
+                    <td>{{ employee.esal }}</td>
+                    <td><a href="{% url 'recorddelete' %}?id={{ employee.id }}">Delete</a></td>
+                </tr> 
+            {% endfor %}
+        </table>
+    </div>
+{% endblock %}

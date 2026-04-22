@@ -1,0 +1,31 @@
+{% extends "menu.html" %}
+{% block content %}
+
+<form action="{% url 'saveEmployee' %}" method="post">
+    {% csrf_token %}
+    <div>
+        <label for="eno">Employee Number:</label>
+    </div>
+    <div>
+        <input type="number" id="eno" name="eno" required>
+    </div>
+    <div>
+    <label for="ename">Employee Name:</label>
+    </div>
+    <div>
+        <input type="text" id="ename" name="ename">
+    </div>
+    <div>
+        <label for="esal">Employee Salary:</label>
+    </div>
+    <div>
+        <input type="number" id="esal" name="esal">
+    </div>
+    <div>
+        <button type="submit" value="Save Employee">
+            Save Employee
+        </button>
+    </div>
+</form>
+
+{% endblock %}

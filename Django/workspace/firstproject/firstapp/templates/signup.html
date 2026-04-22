@@ -1,0 +1,32 @@
+{% extends "master.html" %}
+{% block content %}
+
+<form action="{% url 'saveUser' %}" method="post">
+    {% csrf_token %}
+    <div>
+        <label for="username">Username:</label>
+    </div>
+    <div>
+        <input type="text" id="username" name="username" required>
+        <span style="color: red;">{{ errormsg }}</span>
+    </div>
+    <div>
+        <label for="password">Password:</label>
+    </div>
+    <div>
+        <input type="password" id="password" name="password" required>
+    </div>
+    <div>
+        <label for="realname">Real Name:</label>
+    </div>
+    <div>
+        <input type="text" id="realname" name="realname" required> 
+    </div>
+    <div>
+        <input type="submit" value="Sign Up">
+    </div>
+    <div>
+        <a style="color: orange;" href="{% url 'login' %}">Already have an account? Login</a>
+    </div>
+</form>
+{% endblock %}

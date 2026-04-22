@@ -1,0 +1,32 @@
+body{
+    background-color: #2a1341;
+    color:rgb(231, 245, 231);
+}
+.header{
+    text-align: center;
+    color: hotpink;
+}
+/* h1{
+    color: red;
+    font-size: 50px;
+} */
+.employeelist{
+    background-color: #2a1341;
+    color:rgb(85, 177, 85);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+.menu a{
+    color: sienna;
+    }
+
+.employeelist table a{
+    color:orange;
+}

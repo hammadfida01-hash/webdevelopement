@@ -1,0 +1,21 @@
+{% load app_tags %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <div class="header">
+        <p>{% today %}</p>
+        <h1>My Website</h1>
+    </div>
+    {%block menu%}
+    {% endblock %}
+    {% block content %}
+    {% endblock %}
+</body>
+</html>

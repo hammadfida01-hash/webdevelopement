@@ -1,0 +1,12 @@
+{% extends "master.html" %}
+{%block menu%}
+<div class="menu">
+<a href="{% url 'home' %}">Home</a>
+<a href="{% url 'about' %}">About</a>
+<a href="http://127.0.0.1:8000/firstapp/faq/">Faq</a>
+<a href="http://127.0.0.1:8000/firstapp/contact/">Contact</a>
+<a href="{% url 'employeelist' %}">Employee List</a>
+<a href="{% url 'newformemployee' %}">New Employee</a>
+<a href="{% url 'logout' %}">Logout</a>
+</div>
+{% endblock %}
