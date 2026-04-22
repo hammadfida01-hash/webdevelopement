@@ -1,0 +1,15 @@
+
+h1 {
+    color: rgb(202, 164, 39);
+}
+
+body {
+  margin: 0;
+  min-width: 120px;
+  min-height: 100vh;
+  background-color: #4d1111;
+}
+header{
+    width: 100%;
+    background-color: aliceblue;
+}

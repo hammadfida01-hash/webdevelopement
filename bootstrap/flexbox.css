@@ -1,0 +1,24 @@
+body{
+background-color: rgb(39, 36, 36);
+color: orangered;
+}
+
+.container{
+    border: 2px solid blue;
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* flex-flow: row wrap; */
+    justify-content: space-around ;
+    align-items: center;
+}
+
+.container div{
+    border: 1px solid red;
+    background-color: rgb(84, 153, 138);
+    margin: 5px;
+    padding: 5px;
+    font-size: 22px ;
+    min-height: 100px;
+width: 80%;
+}

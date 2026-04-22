@@ -1,0 +1,11 @@
+#nav{
+    background-color: rgb(6, 0, 7);
+    padding: 10px;
+    text-align: center;
+}
+
+#nav a{
+    color: violet;
+    margin:10px;
+    text-align: center;
+}

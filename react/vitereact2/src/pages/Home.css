@@ -1,0 +1,9 @@
+body{
+    background-color: chartreuse;
+    color: blueviolet;
+}
+#home{
+    background-color: rgb(62, 8, 72);
+    padding: 10px;
+    text-align: center;
+}
