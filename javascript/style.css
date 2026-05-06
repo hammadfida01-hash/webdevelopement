@@ -1,0 +1,27 @@
+      /* // CSS Rule 1: Container background & padding */
+.container {
+            background-color: rgb(175, 87, 87);
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 200px;
+        };
+
+        /* CSS Rule 2: Paragraph text style */
+         p {
+            font-size: 18px;
+            color: rgb(46, 46, 224);
+        } 
+.bg-primary{
+            background-color: rgb(194, 57, 121);
+        }
+        .a{
+            color: rgb(25, 12, 31);
+        }
+.dark{
+  background-color: black;
+  color: white;
+}
+.light{
+  background-color: white;
+  color: black;
+}

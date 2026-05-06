@@ -1,3 +1,6 @@
+
+// >>>>>>>>>>MDN DOCS website to learn JavaScript
+
 // 1//ways to print in javascript
 // //console.log("hello world 6+7=", 6 + 7, "another world");
 // //document.write("this is document");
@@ -11,6 +14,10 @@
 // var num1=32;
 // var num2=23;
 // console.log(num1+num2);
+
+
+// let a="10";
+// console.log(typeof a);
 
 // //4 data types in javascript
 // //Number
@@ -106,6 +113,41 @@
 
 
 
+// CALLBACKHELL FUNCTION
+
+// const arr = [1, 2, 3];
+
+// arr.forEach((val) => {
+//     console.log(val * 2);
+// });
+
+// const arr = [1, 2, 3];
+
+// const result = arr.map((val) => {
+//     return val * 2;
+// });
+
+// console.log(result);
+
+// >>>>>>>>      FILTERRRRRRRRRR
+
+// const arr = [1,2,3,4,5,6];
+// const result = arr.filter(val => val % 2 === 0);
+
+// console.log(result);
+
+// const arr = [5,12,8,20];
+
+// const result = arr.filter(val => val > 10);
+
+// console.log(result);
+
+// let arr=[1,2,3,4,5,6];
+
+// let result=arr.reduce((acc,val)=>{
+//     return acc>val ? acc : val;
+// });
+// console.log(result);
 // let marks1 = 75;
 
 // if (marks1 >= 80) {
@@ -190,13 +232,14 @@
 // console.log(fruit);
 
 // fruit.shift();
+// console.log(fruit);
 
 // fruit.unshift("Grapes");
 // console.log(fruit);
 
 // console.log(fruit.length);
 
-// console.log(fruit.indexOf("Mango"));
+// console.log(fruit.indexOf("Banana"));
 
 // //STRING METHODS
 // let name = "hammad";
@@ -217,13 +260,31 @@
 // console.log(now.getHours());
 // console.log(now.getMonth());
 
-
+// let a=prompt("Enter a number");
+// let b=prompt("Enter b number");
+// console.log("The number you entered is",a);
+// console.log("the number is :",b);
+// let c=Number.parseInt(a)+Number.parseInt(b);
+// console.log("the sum of a and b is",c);
+// let c=a*b;
+// console.log("the product of a and b is",c);
 // //DOM document object variable
 // // let btn = document.getElementById("click");
 
 // // btn.addEventListener("click", function() {
 // //     alert("Button clicked!");
 // // });
+
+
+// let h=document.querySelector("h1");
+// console.dir(h.innerText);
+// h.innerText=h.innerText + " Hello World";
+
+// let div=document.querySelectorAll(".container");
+// console.log(div);
+// div[0].innerText="This is container 1";
+
+// div[1].innerText="This is container 2";
 
 // // let containers = document.getElementsByClassName("container");
 
@@ -262,6 +323,39 @@
 // elemclass[0].classList.add('a');
 
 // //EVENTS in  Javascript
+// let btn=document.querySelector("#btn1");
+// let currentmode="light";
+// btn.addEventListener("click",()=>{
+//     if(currentmode==='light'){
+//         document.querySelector("body").style.backgroundColor='black';
+//         currentmode='dark';
+
+//     }else{
+//         document.querySelector("body").style.backgroundColor='white';
+//         currentmode='light';
+//     }
+// });
+
+// let btn=document.querySelector("#btn1");
+// let body=document.querySelector("body");
+
+// let currentmode="light";
+
+// btn.addEventListener("mouseover",()=>{
+//     if(currentmode==='light'){
+//         body.classList.add("dark");
+//         body.classList.remove("light");
+//         currentmode='dark';
+
+//     }else{
+//         body.classList.add("light");
+//         body.classList.remove("dark");
+//         currentmode='light';
+//     }
+// });
+
+
+
 
 // document.addEventListener("DOMContentLoaded", function () {
 
