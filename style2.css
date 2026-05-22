@@ -1,4 +1,4 @@
-h2{
+/* h2{
 	color:red;
 }
 
@@ -7,6 +7,68 @@ h2{
   border: 5px solid red;
   display: inline-block;
   padding: 30px 20px 25px 7px;
-  margin: 20px  5px 20px 7px;
 }
 	
+
+*{
+  padding: 0px;
+  margin: 0px;
+  color: white;
+}
+
+#navbar{
+  height: 60px;
+  background-color: black;;
+  
+}
+button{
+  background-color: chocolate;
+}
+#logo{
+  color: tomato;
+  font-size: 25px;
+}
+a{
+  margin-right: 200px;
+  text-decoration: none;
+} */
+ /* #abc
+ {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  background-image: url(nature.jpg);
+  background-size: cover;
+  left: 600px;
+ } */
+ /* div{
+  position: absolute;
+  height: 50px;
+  width: 100px;
+  background-color: black;
+  color: white;
+  top: 0px;
+  left: 50px;
+  text-align:center;
+  padding-left: 20px;
+ } */
+
+ .parent{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: lightgray;
+}
+
+.box{
+    /* position: absolute;
+    top: -5px;
+    right: -15px;
+    width: 100px;
+    height: 100px; */
+    background: red;
+}
+div{
+  height: 100px;
+  width: 100px;
+}
