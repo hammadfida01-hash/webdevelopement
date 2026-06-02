@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #476ea5;
+    /* background-image: url("Tic_tac.jpg"); */
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container{
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    gap: 1vmin;
+}
+h1{
+    margin-bottom: 20px;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgb(0,0,0,0.3);
+    font-size: 8vmin;
+    background-color: #758c8d;
+    color:white;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.reset-btn1{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #4e6380;
+    color: white;
+    border-radius: 1rem;
+    
+    
+}
+.newbtn{
+     display:flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+#new-btn{
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #4e6380;
+    color: white;
+    border-radius: 1rem;
+    margin-bottom: 20px;
+    
+}
+.x{
+    color: #e0ed9d;
+}
+.o{
+    color: rgb(208, 130, 6);
+}
+
+#result-text{
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 20px;
+}
