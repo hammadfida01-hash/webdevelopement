@@ -36,12 +36,6 @@ Based on the result, system shows the user’s body condition.
 * CSS
 * JavaScript
 
-## 📸 Project Preview
-
-(Add screenshots here)
-
-Example:
-![BMI Calculator](screenshots/bmi1.png)
 
 ## 🎯 Learning Outcome
 

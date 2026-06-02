@@ -1,6 +1,6 @@
 import React, { useState, useCallback, useEffect,useRef } from 'react'
 
-function Pswrdgen() {
+function PasswordGenerator() {
     const [length, setLength] = useState(8)
     const [numallowed, setNumallowed] = useState(false)
     const [charallowed, setCharallowed] = useState(false)
@@ -36,6 +36,7 @@ function Pswrdgen() {
     }, [length, numallowed, charallowed, generatePassword])
     
     return (
+     
         <div className="max-w-6xl  mx-auto mt-5 shadow-md rounded-lg px-4 py-6 text-white text-center bg-slate-600">
 
             <h1 className="text-2xl font-bold mb-4">
@@ -96,4 +97,4 @@ function Pswrdgen() {
     )
 }
 
-export default Pswrdgen
+export default PasswordGenerator

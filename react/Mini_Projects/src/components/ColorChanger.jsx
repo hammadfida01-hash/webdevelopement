@@ -1,7 +1,7 @@
 // import Navbar from './components/Navbar'
 // import './App.css'
 import { useState } from 'react'
-function Bgcolor() {
+function ColorChanger() {
   const [color, setColor] = useState("olive")
   return (
     <>
@@ -30,4 +30,4 @@ function Bgcolor() {
   )
 }
 
-export default Bgcolor
+export default ColorChanger
