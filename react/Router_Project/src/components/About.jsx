@@ -7,22 +7,19 @@ export default function About() {
               <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
                   <div className="md:5/12 lg:w-5/12">
                       <img
-                          src="./myimg.jpeg"
+                          src="./myimage.jpeg"
                           alt="image"
                       />
                   </div>
                   <div className="md:7/12 lg:w-6/12">
                       <h2 className="text-2xl text-gray-900 font-bold md:text-4xl">
-                          React development is carried out by passionate developers
+                          Full Stack Developer
                       </h2>
                       <p className="mt-6 text-gray-600">
-                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum omnis voluptatem
-                          accusantium nemo perspiciatis delectus atque autem! Voluptatum tenetur beatae unde
-                          aperiam, repellat expedita consequatur! Officiis id consequatur atque doloremque!
+                          I am a Full Stack Developer with experience in building modern and responsive web applications. I work on both frontend and backend development to create complete and functional websites.!
                       </p>
                       <p className="mt-4 text-gray-600">
-                          Nobis minus voluptatibus pariatur dignissimos libero quaerat iure expedita at?
-                          Asperiores nemo possimus nesciunt dicta veniam aspernatur quam mollitia.
+                          On the frontend side, I have skills in HTML, CSS, JavaScript, and Tailwind CSS, which I use to design clean, responsive, and user-friendly interfaces. On the backend side, I work with Django and MySQL to build secure server-side logic and manage databases efficiently
                       </p>
                   </div>
               </div>
