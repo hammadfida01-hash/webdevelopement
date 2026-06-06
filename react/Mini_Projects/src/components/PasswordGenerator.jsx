@@ -36,8 +36,8 @@ function PasswordGenerator() {
     }, [length, numallowed, charallowed, generatePassword])
     
     return (
-     
-        <div className="max-w-6xl  mx-auto mt-5 shadow-md rounded-lg px-4 py-6 text-white text-center bg-slate-600">
+        <div className="min-h-screen flex items-center justify-center bg-gray-100" style={{ backgroundImage: "url('bgimg.jpg')" }}>
+        <div className="w-full max-w-4xl mx-auto mt-0 shadow-md rounded-lg px-4 py-6 text-white text-center bg-white/10 backdrop-blur-md border border-white/20">
 
             <h1 className="text-2xl font-bold mb-4">
                 Password Generator
@@ -93,6 +93,7 @@ function PasswordGenerator() {
 
             </div>
 
+        </div>
         </div>
     )
 }

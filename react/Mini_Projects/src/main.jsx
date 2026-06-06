@@ -7,7 +7,7 @@ import PasswordGenerator from './components/PasswordGenerator.jsx'
 
 createRoot(document.getElementById('root')).render(
 <>
-  {/* <PasswordGenerator /> */}
-  <ColorChanger />
+  <PasswordGenerator />
+  {/* <ColorChanger /> */}
 </>
 )
