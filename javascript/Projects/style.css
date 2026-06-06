@@ -4,7 +4,8 @@
 }
 body{
     background-color: #476ea5;
-    /* background-image: url("Tic_tac.jpg"); */
+    /* background-image: url("img.jpg"); */
+    object-fit: cover;
     text-align: center;
     background-size: cover;
     background-position: center;
